@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {ConfigService} from'../config.service';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -7,14 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit { 
   header = {
-    heading:'MedHelp',
-    headingtext:'Namari is a free landing page template you can use for your projects. It is free to use for your personal and commercial projects, enjoy!',
-    buttontext: 'do some action!',
-    buttonlink:'\Home', 
-  }
-  constructor() { }
+    heading: String,
+    headingtext: String,
+    buttontext: String,
+    buttonlink: String, 
+  };
+
+  constructor(private config:ConfigService) { }
 
   ngOnInit() {
+    this.getHeader();
+  }
+  getHeader(){
+    return this.config.getConfig().header;
   }
 
 }

@@ -13,6 +13,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SocialComponent } from './social/social.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import{ConfigService} from './config.service';
 
 @NgModule({
   declarations: [
@@ -26,13 +27,13 @@ import { NavigationComponent } from './navigation/navigation.component';
     HeaderComponent,
     FooterComponent,
     SocialComponent,
-    NavigationComponent
+    NavigationComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ConfigService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
