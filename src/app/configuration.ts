@@ -62,6 +62,19 @@ export const configuration = {
         tagline:'YOUR CHOICE',
         title:'We have the right package for you',
         discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
-        
+        plans:[
+            {title:'PERSONAL',subtitle:'The standard version',discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',price:'19',currency:'$',
+                downloads:'5 Downloads',extentions:'2 Extensions',tutorials:'Tutorials',support:'Forum Support',update :'1 year free updates',botton: 'BUY TODAY',
+             bottonlink:'#', featured:true  
+            },
+            {title:'PERSONAL',subtitle:'Most popular choice',discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',price:'29',currency:'$',
+                downloads:'15 Downloads',extentions:'5 Extensions',tutorials:'Tutorials with Files',support:'Forum Support',update :'2 year free updates',botton:'BUY TODAY',
+                bottonlink:'#',featured:true   
+            },
+            {title:'BUSINESS',subtitle:'For the whole team',discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',price:'49',currency:'$',
+                downloads:'Unlimited Downloads',extentions:'Unlimited Extensions',tutorials:'HD video Tutorials',support:'Chat Support',update :'Lifetime free updates',
+                botton:'BUY TODAY',bottonlink:'#',featured:true  
+            },
+        ],
     },
 }; 
