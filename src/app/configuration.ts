@@ -11,4 +11,34 @@ export const configuration = {
         discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
         
     },
+    gallery : {
+        tagline:'BELIEVING',
+        title:'Focusing On What Matters Most',
+        discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
+        
+    },
+    services : {
+        tagline:'SUCCESS',
+        title:'How We Help You To Sell Your Product',
+        discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
+        
+    },
+    testimonials : {
+        tagline:'FEEDBACK',
+        title:'What our customers are saying',
+        discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
+        
+    },
+    clients : {
+        tagline:'TRUST',
+        title:'Companies who use our services',
+        discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
+        
+    },
+    pricing : {
+        tagline:'YOUR CHOICE',
+        title:'We have the right package for you',
+        discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
+        
+    },
 }; 
