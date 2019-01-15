@@ -17,17 +17,15 @@ export const configuration = {
         discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
         
     },
-    services : {
-        tagline:'SUCCESS',
-        title:'How We Help You To Sell Your Product',
-        discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
-        
+    servicers : {
+        tagline:'FEEDBACK',
+        title:'What our customers are saying',
+
     },
     testimonials : {
         tagline:'FEEDBACK',
         title:'What our customers are saying',
-        discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
-        
+
     },
     clients : {
         tagline:'TRUST',

@@ -9,12 +9,12 @@ import { ConfigService } from '../config.service';
 export class IntroductionComponent implements OnInit {
   intro = { };
 
-  constructor(private confing: ConfigService) { }
+  constructor(private config: ConfigService) { }
 
   ngOnInit() {
     this.intro = this.getIntro();
   }
   getIntro(){
-    return this.confing.getConfig().intro;
+    return this.config.getConfig().intro;
   }
 }

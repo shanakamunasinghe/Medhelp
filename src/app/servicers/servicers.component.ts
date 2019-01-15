@@ -10,6 +10,9 @@ export class ServicersComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.servicers = this.getServices();
   }
-
+  getServices(){
+    return this.config.getConfig().intro;
+  }
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConfigService } from '../config.service';
 
 @Component({
   selector: 'app-pricing',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pricing.component.css']
 })
 export class PricingComponent implements OnInit {
-
-  constructor() { }
+  pricing ={};
+  constructor(private config : ConfigService ) { }
 
   ngOnInit() {
+    this.pricing = this.getServices();
   }
-
+  getServices(){
+    return this.config.getConfig().pricing;
+  }
 }
