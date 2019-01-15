@@ -35,13 +35,28 @@ export const configuration = {
     testimonials : {
         tagline:'FEEDBACK',
         title:'What our customers are saying',
+        feedbacks:[
+            {name:'Lorem',userimage:'user-1.jpg',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',company:'aliqua'},
+            {name:'Lorem',userimage:'user-2.jpg',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',company:'aliqua'},
+            {name:'Lorem',userimage:'user-3.jpg',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',company:'aliqua'},
+        ],
 
     },
     clients : {
         tagline:'TRUST',
         title:'Companies who use our services',
         discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
-        
+        companies:[{weblink:'#',comapnylogo:'company-logo1.png',title:'Tree'},
+                   {weblink:'#',comapnylogo:'company-logo2.png',title:'Goat'},
+                   {weblink:'#',comapnylogo:'company-logo3.png',title:'Fingerprint'},
+                   {weblink:'#',comapnylogo:'company-logo3.png',title:'The Man'},
+                   {weblink:'#',comapnylogo:'company-logo4.png',title:'Mustache'},
+                   {weblink:'#',comapnylogo:'company-logo5.png',title:'Goat'},
+                   {weblink:'#',comapnylogo:'company-logo6.png',title:'Justice'},
+                   {weblink:'#',comapnylogo:'company-logo7.png',title:'Ball'},
+                   {weblink:'#',comapnylogo:'company-logo8.png',title:'Cold'},
+                   {weblink:'#',comapnylogo:'company-logo9.png',title:'Cold'},
+        ],
     },
     pricing : {
         tagline:'YOUR CHOICE',

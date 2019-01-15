@@ -9,6 +9,7 @@ import { ConfigService } from '../config.service';
 export class IntroductionComponent implements OnInit {
   intro = { };
 
+  
   constructor(private config: ConfigService) { }
 
   ngOnInit() {
