@@ -6,17 +6,13 @@ import {ConfigService} from'../config.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit { 
-  header = {
-    heading: String,
-    headingtext: String,
-    buttontext: String,
-    buttonlink: String, 
+  header = { 
   };
 
   constructor(private config:ConfigService) { }
 
   ngOnInit() {
-    this.getHeader();
+    this.header = this.getHeader();
   }
   getHeader(){
     return this.config.getConfig().header;

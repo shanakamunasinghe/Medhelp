@@ -5,4 +5,10 @@ export const configuration = {
         buttontext: 'do some action!',
         buttonlink:'\Home', 
     },
-};
+    intro : {
+        tagline:'SUCCESS',
+        title:'How We Help You To Sell Your Product',
+        discription:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
+        
+    },
+}; 
