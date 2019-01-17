@@ -14,6 +14,8 @@ import { FooterComponent } from './footer/footer.component';
 import { SocialComponent } from './social/social.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import{ConfigService} from './config.service';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { PaginationComponent } from './pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import{ConfigService} from './config.service';
     FooterComponent,
     SocialComponent,
     NavigationComponent,
+    NotfoundComponent,
+    PaginationComponent,
   ],
   imports: [
     BrowserModule,

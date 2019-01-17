@@ -8,7 +8,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ClientsComponent } from './clients/clients.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { HeaderComponent } from './header/header.component';
-
+import { NotfoundComponent } from './notfound/notfound.component';
 
 const routes: Routes = [{path: '', redirectTo: '/Home', pathMatch: 'full'},
                         {path:'Home',component:HeaderComponent },
@@ -18,7 +18,9 @@ const routes: Routes = [{path: '', redirectTo: '/Home', pathMatch: 'full'},
                         {path:'Testimonials',component: TestimonialsComponent },
                         {path:'Clients',component:ClientsComponent },
                         {path:'Pricing',component:PricingComponent},
-                        ];
+                        {path:'404',component: NotfoundComponent},
+                        {path:'**',redirectTo: '/404'},
+                      ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
