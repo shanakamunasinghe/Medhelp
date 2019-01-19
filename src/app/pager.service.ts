@@ -39,5 +39,20 @@ export class PagerService {
     // calculat start and index iterms
     let startIndex = (currentPage - 1)* pageSize;
     let endIndex = Math.min((startIndex + pageSize - 1),(totalPages - 1));
+  
+    // create an array of pages
+    
+    let pages = Array.from(Array((endPage - 1) - startPage).keys()).map(i => startPage + 1);
+    return {
+      totalItems : totalItems,
+      currentPages : currentPage,
+      pageSize : pageSize,
+      startPage: startPage,
+      endPage: endPage,
+      startIndex : startIndex,
+      endIndex : endIndex,
+      pages: pages
+    };
+  
   }
 }

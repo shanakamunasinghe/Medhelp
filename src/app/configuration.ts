@@ -77,4 +77,9 @@ export const configuration = {
             },
         ],
     },
+    blog : {
+        tagline:'My Thoughts',
+        title:'My world my thoughts',
+       
+    },
 }; 
