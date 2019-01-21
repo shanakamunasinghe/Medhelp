@@ -77,9 +77,19 @@ export const configuration = {
             },
         ],
     },
-    blog : {
+    blog : { 
         tagline:'My Thoughts',
         title:'My world my thoughts',
-       
+        posts: [
+            {id: 1, title: ' The first Article',author: 'AD',image: 'gallery-image-1.jpg',publishdate: '2019-01-19',excert: 'This is the summary the article .... !'},
+            {id: 2, title: ' The second Article',author: 'AD',image: 'gallery-image-2.jpg',publishdate: '2019-01-19',excert: 'This is the summary the article .... !'},
+            {id: 3, title: ' The third Article',author: 'AD',image: 'gallery-image-3.jpg',publishdate: '2019-01-19',excert: 'This is the summary the article .... !'},
+            {id: 4, title: ' The fourth Article',author: 'AD',image: 'gallery-image-4.jpg',publishdate: '2019-01-19',excert: 'This is the summary the article .... !'},
+            {id: 5, title: ' The fifth Article',author: 'AD',image: 'gallery-image-5.jpg',publishdate: '2019-01-19',excert: 'This is the summary the article .... !'},
+            {id: 6, title: ' The sixth Article',author: 'AD',image: 'gallery-image-6.jpg',publishdate: '2019-01-19',excert: 'This is the summary the article .... !'},
+            {id: 7, title: ' The seventh Article',author: 'AD',image: 'gallery-image-1.jpg',publishdate: '2019-01-19',excert: 'This is the summary the article .... !'},
+        ],
+
+        
     },
 }; 

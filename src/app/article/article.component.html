@@ -1,3 +1,12 @@
-<p>
-  article works!
-</p>
+<!--article Tables-->
+<section id="article" class="secondary-color text-center scrollto clearfix ">
+  <div class="row clearfix" *ngIf ="post">
+    <div class="section-heading">
+      <div class="post-block wow fadeInUp" data-wow-delay="0.4s" >
+        <app-post [post] = "post"></app-post>
+      </div>
+    </div>
+    <a (click) = "getBack()" class="button"> Back </a> 
+  </div>
+</section>
+<!--End of article Tables--> 
