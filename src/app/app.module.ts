@@ -20,6 +20,7 @@ import { BlogComponent } from './blog/blog.component';
 import { PostComponent } from './post/post.component';
 
 import { ArticleComponent } from './article/article.component';
+import { PagerService } from './pager.service';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,7 @@ import { ArticleComponent } from './article/article.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [ConfigService],
+  providers: [ConfigService,PagerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -21,9 +21,10 @@ const routes: Routes = [{path: '', redirectTo: '/Home', pathMatch: 'full'},
                         {path:'Clients',component:ClientsComponent },
                         {path:'Pricing',component:PricingComponent},
                         {path:'Blog',component:BlogComponent},
+                        {path: 'Article/:id', component: ArticleComponent},
                         {path:'404',component: NotfoundComponent},
                         {path:'**',redirectTo: '/404'},
-                        {path: 'article/id', component: ArticleComponent},
+                        
                       ];
 
 @NgModule({
